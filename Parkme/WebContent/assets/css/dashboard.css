@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+#weatherWidget .currentDesc {
+	color: #ffffff !important;
+}
+
+.traffic-chart {
+	min-height: 335px;
+}
+
+#flotPie1 {
+	height: 150px;
+}
+
+#flotPie1 td {
+	padding: 3px;
+}
+
+#flotPie1 table {
+	top: 20px !important;
+	right: -10px !important;
+}
+
+.chart-container {
+	display: table;	
+	min-width: 270px;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#flotLine5 {
+	height: 105px;
+}
+
+#flotBarChart {
+	height: 150px;
+}
+
+#cellPaiChart {
+	height: 160px;
+}
+
+.color1{
+color: #0c2461;
+}
+.color2{
+color: #ff4d4d;
+}
+
+.color3{
+color: #D6A2E8;
+}
+
+
+.navbar .main-menu{
+    background-color: #104269;
+}
+
+.navbar .navbar-nav li > a {
+
+    color: #FAFAF8;
+
+}
+.navbar .navbar-nav > li.active {
+ 	background-color: #104269;
+}
+
+.left-panel {
+    background-color:  #104269  !important;
+
+
+}
+.navbar .navbar-nav li.menu-item-has-children.show .sub-menu {
+ background-color:  #104269  !important;
+
+}
+.navbar {
+ background-color:  #104269  !important;
+
+}
+.count{
+font-size: 30px;
+}
+
+.right-panel header.header{
+    background: #0a2b45;
+     border-bottom: 1px solid #0a2b45;
+}
+
+
+.right-panel .navbar-header{
+background-color: #0a2b45;
+   
+}
+.menutoggle{
+color: #FAFAF8 !important;
+}
+.navbar .navbar-nav li > a .menu-icon{
+color: #FAFAF8 !important ;
+}
+
+.small-device{
+    background: #0a2b45;
+
+}
+.canvasjs-chart-credit{
+font-size:0px !important ;
+}
+.canvasjs-chart-canvas{
+width: 100% !important; 
+
+}
+
+.footer{
+	 
+	    
+}
+
+
+html, body {
+  height: 100vh;
+      overflow: auto;
+   min-height: 100vh;
+   
+}
+body{
+background-color: #f1f2f7 !important;
+ height:100vh;
+ position: relative;
+}
+
+.min-100 {
+    min-height: 100%;
+}
+.site-footer  {
+font-size: .8em;
+
+bottom: 0;
+width: 100%;
+padding-top:10px;
+padding-bottom:10px;
+background-color: #f5f5f5;
+     }
+.footer.site-footer{
+
+}
+    .right-panel {
+    Height:100xh;
+    
+    }
+   
+   
+@media only screen and (max-width: 767px) {
+
+.right-panel .top-left, .right-panel .top-right {
+    width: 100%;
+    float: none;
+     background: #0a2b45 !important;
+}
+.right-panel .menutoggle {
+    padding-right: 60px;
+    padding-top: 7px;
+}
+.right-panel header.header .top-left{
+     border-bottom: 18px solid #0a2b45;
+}
+
+}
+@media only screen and (max-width: 1024px) {
+
+
+
+}
+
+
+/*  Khu resper sceen*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+.canvasjs-chart-canvas{
+width: 100% !important; 
+
+
+}
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+
+
+}
+    
